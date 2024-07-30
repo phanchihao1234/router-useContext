@@ -28,7 +28,7 @@ export default function Product(props) {
                             <h1 >{product.name}</h1>
 
                         </CardText>
-                        <Link to={`/detail/${product.id}`}>show id</Link>
+                        <Link to={`/router-useContext/detail/${product.id}`}>show id</Link>
                         <Button color='primary' onClick={() => handle_AddCart(product.id)}>
                             Add to cart
                         </Button>

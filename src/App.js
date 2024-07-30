@@ -16,11 +16,11 @@ export default function App() {
             <AppProvider>
                 <Router>
                     <Routes>
-                        <Route path='/' element={<Main />} />
-                        <Route path='/product' element={<Products />} />
-                        <Route path='/detail/:id' element={<DetailPro />} />
+                        <Route path='/router-useContext/' element={<Main />} />
+                        <Route path='/router-useContext/product' element={<Products />} />
+                        <Route path='/router-useContext/detail/:id' element={<DetailPro />} />
                         <Route path='*' element={<NotFound />} />
-                        <Route path='/cart' element={<Cart />} />
+                        <Route path='/router-useContext/cart' element={<Cart />} />
                     </Routes>
                 </Router>
             </AppProvider>
