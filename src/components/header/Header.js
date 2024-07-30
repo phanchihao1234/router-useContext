@@ -31,7 +31,7 @@ export default function Header() {
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="me-auto" navbar>
                         <NavItem>
-                            <NavLink href="/router-useContext/product">Product</NavLink>
+                            <Link to={"/router-useContext/product"}>Product</Link>
                         </NavItem>
                         <NavItem>
                             <NavLink href="https://github.com/reactstrap/reactstrap">
